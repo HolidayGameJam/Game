@@ -14,7 +14,7 @@ public class TextFieldChecker : MonoBehaviour {
 
 		textFieldGUIObject = progressTextObject.GetComponent<GUIText>();
 
-		getProgressField = GameObject.Find ("GameObject").GetComponent<TextField>();
+		getProgressField = GameObject.Find ("Input Field").GetComponent<TextField>();
 	}
 	
 	// Update is called once per frame
